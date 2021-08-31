@@ -1,0 +1,93 @@
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (max-width: 600px) {
+    .PrincipalContainer{
+        width: 100%;
+    }
+
+    .InputAuthor{
+        width: 100%;
+        align-self: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    .PrincipalContainer{
+        width: 100%;
+    }
+
+    .InputAuthor{
+        width: 80%;
+        align-self: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .PrincipalContainer{
+       width: 60%;
+   }
+
+   .InputAuthor{
+        width: 50%;
+        align-self: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .PrincipalContainer{
+        width: 60%;
+   }
+
+   .InputAuthor{
+       width: 60%;
+       align-self: center;
+   }
+} 
+
+
+.PrincipalContainer{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.postsTitle{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cardPost{
+    margin-bottom: 20px;
+}
+
+.subtitlePost{
+    margin-bottom: 30px;
+}
+
+.newbuttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonsForms{
+    width: 50px;
+    align-self: center;
+}
+
+.TextForm{
+    
+}
+
