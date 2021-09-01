@@ -8,6 +8,8 @@ routes.post('/', (req, res) => {
     let newname = req.body.newname; 
     let array = req.body.array;
 
+    console.log(req.body);
+
     if(!newname)return res.status(400).json({"ok":false, "message":"Author name is required."});
     else if(newname.length <= 3)return res.status(400).json({"ok":false, "message":"Author name must be more than 3 characters."});
 
